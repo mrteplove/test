@@ -1,0 +1,516 @@
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px auto;
+	padding: 0;	
+	min-width: 280px;
+	box-sizing: border-box;
+	
+
+}
+
+.header-navigation {
+	background-color: #274b7e;
+	background-image: url(../img/Livello1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+ }
+
+.site-navigation-item{
+	display: flex;
+	justify-content:flex-start;
+
+}
+
+.site-navigation,
+.main-navigation {
+display: flex;
+list-style: none;
+}
+
+.boot {
+	display: flex;
+	list-style: none;
+	padding-top: 40px;
+	padding-left: 60px;
+	flex-grow: 3;
+}
+
+
+.site-navigation a {
+	display: block;
+	padding: 50px;
+	margin-right: 15px;
+}
+
+
+.header-tittle {
+	font-size: 60px;
+	margin-top: 190px;
+	letter-spacing: 14px;
+	
+}
+.header-slogan {
+	font-size: 20px;
+	letter-spacing: 7px;
+	margin-top: -20px;
+	
+}
+
+.header-tittle,
+.header-slogan {
+  	color: #FFF;
+  	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.header-arrow {
+	width: 60px;
+	height: 50px;
+	margin-left: -30px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+}
+
+
+.main-filter {
+	font-size: 18px;
+
+}
+
+.filter {
+	background-color: #f5f6f7;
+	display: flex;
+	justify-content: flex-start;
+	height: 150px;
+
+
+}
+.filter-list{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-grow: 3;
+	letter-spacing: 1px;
+}
+.filter-item{
+	display: block;
+	padding: 40px;
+}
+
+.see-all {
+	margin:45px 77px;
+	padding: 20px 35px;
+
+	background-color: #aa9b77;
+	color: #FFF;
+	border-radius: 7px;
+}
+
+.catalog{
+	
+	height: 120px;
+	margin: auto;
+ }
+
+.catalog-men {
+	text-transform: uppercase;
+}
+
+.catalog-men-tittle{
+	padding-top: 60px;
+
+	background-image: url(../img/Forma1.png);
+	background-position: 100% 94%;
+	background-repeat: no-repeat;
+	background-size: 95%;
+}
+
+.page-men{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: flex-end;
+	padding-bottom: 30px;
+
+	height: 50px;
+	margin: auto;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.page-men a{
+	text-decoration: none;
+}
+
+.catalog-list-men{
+	display: flex;
+	justify-content: space-between;
+	
+	margin: auto;
+	text-transform: uppercase;
+}
+
+.catalog-list-men a {
+	text-decoration: none;
+	color: #aa9b77;
+}
+
+.catalog-list-tshirt-men,
+.catalog-list-pants-men,
+.catalog-list-bags-men{
+	background-color: #f5f6f7;
+	
+	height: 380px;
+
+	font-size: 18px;
+
+}
+
+.catalog-item-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+
+	color: #424242;
+	
+}
+.catalog-item-size {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	color: #424242;
+
+}
+
+.product-card-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.catalog-item-pantsize{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 15px;
+	padding-top: 15px;
+	align-items: center;
+}
+
+.catalog-item-bottom-tshirt-men {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 31px 15px 10px 15px;
+
+
+}
+
+
+.catalog-item-bottom-pants {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:5px 15px 10px 15px;
+
+}
+.catalog-item-bottom-bags {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:8px 15px 10px 15px;
+
+	text-decoration: none;
+}
+
+.catalog-item-price {
+	color: #424242;
+}
+
+.catalog{
+	
+	height: 120px;
+	margin: auto;
+ }
+
+.catalog-list-item-tshirt:hover,
+.catalog-list-item-pants:hover,
+.catalog-list-item-bag:hover,
+.catalog-list-item-giacket:hover,
+.catalog-list-item-shoes:hover{
+	background-color: #f5f6f7;
+	border: 5px solid;
+	border-color: #aa9b77;
+}
+
+
+ .catalog-women-tittle{
+	display: flex;
+	justify-content: flex-end;
+
+	padding-top: 60px;
+
+	background-image: url(../img/Forma1.png);
+	background-position: 00% 80%;
+	background-repeat: no-repeat;
+	background-size: 92%;
+	text-transform: uppercase;
+}
+
+.page-women{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-top: 30px;
+	padding-bottom: 15px;
+
+	
+	height: 50px;
+	margin: auto;
+	font-size: 16px;
+}
+.page-women a{
+	text-decoration: none;
+}
+
+.catalog-list-women{
+	display: flex;
+	justify-content: space-between;
+	
+	margin: auto;
+	margin-bottom: 90px;
+	text-transform: uppercase;
+}
+
+.catalog-list-women a {
+	text-decoration: none;
+	color: #aa9b77;
+}
+.catalog-list-tshirt-women,
+.catalog-list-pants-women,
+.catalog-list-bags-women{
+	background-color: #f5f6f7;
+	
+	height: 380px;
+
+	font-size: 18px;
+
+}
+
+.catalog-item-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+
+	color: #424242;
+	
+}
+.catalog-item-size {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	color: #424242;
+
+}
+
+.product-card-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product-card-media-shoes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+.catalog-item-shoes{
+	display: flex;
+	justify-content: flex-start;
+	padding: 15px 15px 50px 15px;
+	align-items: center;
+}
+
+.catalog-item-bottom-giacket {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px 10px 20px;
+
+
+}
+
+
+.catalog-item-bottom-shoes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:55px 20px 10px 20px;
+
+}
+.catalog-item-bottom-tshirt-women {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0px 15px 5px 20px;
+
+	text-decoration: none;
+}
+
+.catalog-item-price {
+	color: #424242;
+}
+
+.features {
+	height: 300px;
+	background-color: #aa9b77;
+	color: #918363
+}
+
+.features-item{
+	display: inline-block;
+	text-align: center;
+	
+	height: 170px;
+	margin: 50px 550px 50px 550px ;
+
+
+	color:#424242;
+	background-color:#aa9b77;
+   	border-color: #918363;
+}
+
+legend {
+	font-family: "[QuicksandBold]" ,sans-serif;
+	font-size: 20px;
+	color: #837659;
+
+	text-transform: uppercase;
+}
+
+.features-text {
+	font-size: 16px;
+	line-height: 24px;
+	color: #424242;
+
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+.commercial {
+	background-color: #535253;
+	height: 80px;
+	margin:auto;
+}
+
+.img-commercial {
+	padding: 25px 0px 25px 50px;
+}
+
+.footer-word {
+	background-color: #424242;
+
+	height: 280px;
+}
+
+
+
+.word-social {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 20px 0 50px;
+	padding-top: 60px;
+}
+
+.last-word {
+	font-family: "[QuicksandBold]" ,sans-serif;
+
+	text-align: left;
+	color: #FFF;
+}
+
+.last-word h3{
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.last-word p {
+	font-family: "[QuicksandBold]" ,sans-serif;
+	font-size: 14px;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+}
+
+.social-item {
+	list-style: none;
+	display: flex;
+	padding: 20px 10px 5px 20px;
+	margin: auto;
+
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.social-item li{
+	padding: 0px 10px;
+}
+
+.li-privacy {
+	border-left: 1px solid;
+	color: #aa9b77;
+}
+
+.li-about {
+	border-left: 1px solid;
+	color: #aa9b77;
+}
+
+.li-contact {
+	border-left: 1px solid;
+	color: #aa9b77;
+}
+
+.social-item a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.design {
+	margin: 0 0 0 0;
+}
+
+.design p{
+	margin: 0px 20px 5px 40px;
+	font-size: 18px;
+	color: #FFF;
+	text-align: right;
+}
+
+@media(max-width:1280px)  {
+	body {
+		max-width:970px;
+	}
+}
+@media(max-width:970px)  {
+	body {
+		max-width:670px;
+	}
+}
